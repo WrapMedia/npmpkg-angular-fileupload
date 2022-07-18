@@ -1,0 +1,89 @@
+{
+  "_args": [
+    [
+      {
+        "hosted": {
+          "directUrl": "https://raw.githubusercontent.com/matteosuppo/angular-filereader/7eb5acf85b956b86e70af08cd61f202a11b54e39/package.json",
+          "gitUrl": "git://github.com/matteosuppo/angular-filereader.git#7eb5acf85b956b86e70af08cd61f202a11b54e39",
+          "httpsUrl": "git+https://github.com/matteosuppo/angular-filereader.git#7eb5acf85b956b86e70af08cd61f202a11b54e39",
+          "shortcut": "github:matteosuppo/angular-filereader#7eb5acf85b956b86e70af08cd61f202a11b54e39",
+          "ssh": "git@github.com:matteosuppo/angular-filereader.git#7eb5acf85b956b86e70af08cd61f202a11b54e39",
+          "sshUrl": "git+ssh://git@github.com/matteosuppo/angular-filereader.git#7eb5acf85b956b86e70af08cd61f202a11b54e39",
+          "type": "github"
+        },
+        "name": "angular-fileupload",
+        "raw": "angular-fileupload@git+https://github.com/matteosuppo/angular-filereader.git#7eb5acf85b956b86e70af08cd61f202a11b54e39",
+        "rawSpec": "git+https://github.com/matteosuppo/angular-filereader.git#7eb5acf85b956b86e70af08cd61f202a11b54e39",
+        "scope": null,
+        "spec": "git+https://github.com/matteosuppo/angular-filereader.git#7eb5acf85b956b86e70af08cd61f202a11b54e39",
+        "type": "hosted"
+      },
+      "/var/lib/jenkins/workspace/Wrap_Build_node_authoring"
+    ]
+  ],
+  "_from": "git+https://github.com/matteosuppo/angular-filereader.git#v1.0.4",
+  "_id": "angular-fileupload@1.0.4",
+  "_inCache": true,
+  "_location": "/angular-fileupload",
+  "_phantomChildren": {},
+  "_requested": {
+    "hosted": {
+      "directUrl": "https://raw.githubusercontent.com/matteosuppo/angular-filereader/7eb5acf85b956b86e70af08cd61f202a11b54e39/package.json",
+      "gitUrl": "git://github.com/matteosuppo/angular-filereader.git#7eb5acf85b956b86e70af08cd61f202a11b54e39",
+      "httpsUrl": "git+https://github.com/matteosuppo/angular-filereader.git#7eb5acf85b956b86e70af08cd61f202a11b54e39",
+      "shortcut": "github:matteosuppo/angular-filereader#7eb5acf85b956b86e70af08cd61f202a11b54e39",
+      "ssh": "git@github.com:matteosuppo/angular-filereader.git#7eb5acf85b956b86e70af08cd61f202a11b54e39",
+      "sshUrl": "git+ssh://git@github.com/matteosuppo/angular-filereader.git#7eb5acf85b956b86e70af08cd61f202a11b54e39",
+      "type": "github"
+    },
+    "name": "angular-fileupload",
+    "raw": "angular-fileupload@git+https://github.com/matteosuppo/angular-filereader.git#7eb5acf85b956b86e70af08cd61f202a11b54e39",
+    "rawSpec": "git+https://github.com/matteosuppo/angular-filereader.git#7eb5acf85b956b86e70af08cd61f202a11b54e39",
+    "scope": null,
+    "spec": "git+https://github.com/matteosuppo/angular-filereader.git#7eb5acf85b956b86e70af08cd61f202a11b54e39",
+    "type": "hosted"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "git+https://github.com/matteosuppo/angular-filereader.git#7eb5acf85b956b86e70af08cd61f202a11b54e39",
+  "_shasum": "bc1782580314a19a0e947cc024f1f1755584acb1",
+  "_shrinkwrap": null,
+  "_spec": "angular-fileupload@git+https://github.com/matteosuppo/angular-filereader.git#7eb5acf85b956b86e70af08cd61f202a11b54e39",
+  "_where": "/var/lib/jenkins/workspace/Wrap_Build_node_authoring",
+  "author": {
+    "email": "matteo.suppo@gmail.com",
+    "name": "Matteo Suppo"
+  },
+  "bugs": {
+    "url": "https://github.com/matteosuppo/angular-filereader/issues"
+  },
+  "dependencies": {},
+  "description": "A wrapper around the Filereader API",
+  "devDependencies": {
+    "gulp": "^3.6.2",
+    "gulp-concat": "^2.2.0",
+    "gulp-karma": "0.0.4",
+    "gulp-ngmin": "^0.3.0",
+    "gulp-uglify": "^0.2.1",
+    "karma-chrome-launcher": "^0.1.3",
+    "karma-jasmine": "^0.2.2"
+  },
+  "gitHead": "7eb5acf85b956b86e70af08cd61f202a11b54e39",
+  "homepage": "https://github.com/matteosuppo/angular-filereader",
+  "keywords": [
+    "angular",
+    "filereader"
+  ],
+  "license": "MIT",
+  "main": "./src/filereader.service.js",
+  "name": "angular-fileupload",
+  "optionalDependencies": {},
+  "readme": "angular-filereader\n==================\n\nA wrapper around the FileReader javascript API\n\nNote: this is incomplete and merely an exercise.\n\nI took the idea and most of the code from [http://odetocode.com/blogs/scott/archive/2013/07/03/building-a-filereader-service-for-angularjs-the-service.aspx](http://odetocode.com/blogs/scott/archive/2013/07/03/building-a-filereader-service-for-angularjs-the-service.aspx)\n\nInstall\n-------\n\nTo use angular-filereader you have to:\n\n1. install angular-filereader with bower:\n\n    ```bower install angular-filereader```\n\n2. In your ```index.html```, include the angular-filereader file\n\n    <script src=\"bower_components/angular-filereader/angular-filereader.min.js\"></script>\n\nIn your module declaration you have to include the filereader module\n\n    var module = angular.module('yourModule', [\n        ...\n        'filereader',\n    ]);\n\nUSAGE\n-----\n\nInject the service in your controller\n\n    function controller ($scope, FileReader) {\n\nCall the readAsDataURL method with a File or Blob object. Remember that you also\nhave to pass the $scope.\n\n      FileReader.readAsDataURL(file, $scope)\n\nreadAsDataURL returns a promise, so you can call then on it\n\n        .then(function (resp) {\n            // Do stuff\n\n        }, function (err) {\n            // Do stuff\n        });\n\nreadAsDataUrl also broadcast the fileProgress event. You can listen for it to\ncheck on the progress of the loading\n\n    $scope.$on('fileProgress', function (event, data) {\n        // data = {\n        //   total: ...\n        //   loaded: ...\n        // }\n    }\n\nFAQ\n---\n\n### What's missing?\n\nA lot. I started this project but I only needed this few bits of functionality.\n\nAlso I ripped the code from [http://odetocode.com/blogs/scott/archive/2013/07/03/building-a-filereader-service-for-angularjs-the-service.aspx](http://odetocode.com/blogs/scott/archive/2013/07/03/building-a-filereader-service-for-angularjs-the-service.aspx) and only added a few tests.\n\nIt's not like I spent months on this.\n\n### Will it work on my customers browsers?\n\nYou can discover it on [http://caniuse.com/filereader](http://caniuse.com/filereader)\n\n### Are there any alternatives?\n\nCheck out [ngReader](https://github.com/SparrowJang/ngFileReader)\nwhich also has a fallback options for browsers who don't support FileReader\n\nDEVELOPMENT\n-----------\n\nRemember to install all dependencies:\n\n    $ npm install -g gulp  // It's like grunt but cooler\n    $ npm install\n    $ bower install\n\nTo launch tests simply run\n\n    gulp karma\n\nTo build and minify simply run\n\n    gulp build\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matteosuppo/angular-filereader.git"
+  },
+  "version": "1.0.4"
+}
